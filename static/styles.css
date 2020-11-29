@@ -1,8 +1,12 @@
 body{background-color: rgb(63, 63, 63);}
 
+/* packages page */
+#construct{color: rgb(41, 190, 190);}
+/* packages page */
+
+
 
 /* HEADER VID */
-
 
 header {
     position: relative;
@@ -74,7 +78,8 @@ header {
 #packages_section{margin-top: 100px;}
 #packages{margin-top: 50px;}
 
-.carousel-caption{color: rgb(0, 255, 255);}
+.carousel-caption{ background-color: rgb(51, 51, 51); color: rgb(0, 255, 255);}
+.details_span a{color: rgb(58, 161, 161);  font-style: italic;}
 
 #about{margin-top: 150px;}
 
