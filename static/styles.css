@@ -93,7 +93,10 @@ header {
 #about_paragraph{margin-top: 20px; margin-bottom: 100px;}
 #w{color: rgb(0, 255, 255);}
 #paft{color: rgb(248, 142, 55);}
+#constitution_link{color: rgb(185, 187, 189); font-weight: bold;}
 #party{color: rgb(248, 142, 55); font-style: italic;}
+
+#about_link{color: rgb(248, 142, 55); font-style: italic; font-weight: bold;}
 
 
 /* CONTACT CARD */
