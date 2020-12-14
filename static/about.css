@@ -54,6 +54,7 @@ body {
 
 .about_p{color: azure;}
 
+#about_container{margin-top: 225px;}
 #about_section{margin-bottom: 50px;
                 background-color: rgb(63, 63, 63);
                 padding: 2rem 1rem 2rem 1rem;
@@ -74,3 +75,12 @@ span{color: rgb(248, 142, 55);}
         text-decoration-color: rgb(41, 190, 190) !important;
         font-weight: bold;
 }
+
+#about_section .motto{color:rgb(41, 190, 190);}
+#about_section h4{margin-top: 30px;}
+
+h6{margin-top: 50px;
+  padding-bottom: 0px;
+}
+
+#about_section .verse{color: rgb(167, 201, 201);}

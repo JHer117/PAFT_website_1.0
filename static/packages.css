@@ -59,6 +59,7 @@ h3{color: rgb(41, 190, 190);}
 .cash{color:azure;}
 
 .info{color: azure;}
+.num_span{color: rgb(154, 243, 243);}
 
 .lead{color:rgb(252, 134, 38);}
 
@@ -68,3 +69,7 @@ h3{color: rgb(41, 190, 190);}
 }
 
 #tba_container{margin-bottom: 50px;}
+
+#custom_packg{margin-top: 35px; padding-bottom: 25px;}
+h5{color: rgb(41, 190, 190);}
+#party{font-style: italic; color:rgb(109, 223, 223); font-size: 14px;}
