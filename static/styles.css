@@ -167,6 +167,14 @@ header {
   
 }
 
+@media only screen and (max-width:600px) {
+  
+  .contact_form_input{font-size: 10px;
+  padding: 10px 75px;
+  }
+}
+
+
 
 .contact_form_input:focus{
     box-shadow: 0 0 10px 4px rgb(199, 115, 47);
