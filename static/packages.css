@@ -39,15 +39,24 @@ body {
 #nav-img{width: 6%;}
 
 @media only screen and (max-width:600px) {
-    #nav-img{width: 8%;}
+    #nav-img{width: 15%;}
 }
 
 #instagram_link{width: 20%;}
-#location_link{width: 20%;}
-/*  */
+@media only screen and (max-width:600px) {
+  #instagram_link{width:10%;}
+}
 
+@media only screen and (max-width:600px) {
+  .jumbotron h1{font-size: 4rem;}
+}
 
 #img_logo{width: 10%; border-radius: 4px;}
+@media only screen and (max-width:600px) {
+  #img_logo{width: 25%;
+  margin-bottom: 10px;
+  }
+}
 
 .jumbotron{margin-bottom: 100px;}
 
@@ -56,6 +65,19 @@ hr{background-color:rgb(185, 187, 189); }
 h1{color: rgb(248, 142, 55);}
 h3{color: rgb(41, 190, 190);}
 
+
+@media only screen and (max-width:600px) {
+  #info_container .display-2{font-size: 3rem;}
+}
+
+@media only screen and (max-width:600px) {
+
+  #info_container #packg_b_column{margin-top: 25px;}
+}
+
+@media only screen and (max-width:600px) {
+  #custom_packg h1{font-size: 2.5rem;}
+}
 
 .price{color:rgb(199, 115, 47); text-decoration-line: underline;}
 .cash{color:azure;}
@@ -75,3 +97,7 @@ h3{color: rgb(41, 190, 190);}
 #custom_packg{margin-top: 35px; padding-bottom: 25px;}
 h5{color: rgb(41, 190, 190);}
 #party{font-style: italic; color:rgb(109, 223, 223); font-size: 14px;} 
+
+@media only screen and (max-width:600px) {
+  #tba_container h1{font-size: 2rem;}
+}
