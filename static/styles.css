@@ -4,9 +4,7 @@
 
 body{background-color: rgb(63, 63, 63);}
 
-/* packages page */
-#construct{color: rgb(41, 190, 190);}
-/* packages page */
+
 
 
 
@@ -52,21 +50,16 @@ header {
     z-index: 1;
   }
   
-  @media (pointer: coarse) and (hover: none) {
+  /* @media (pointer: coarse) and (hover: none) {
     header {
       background: url('https://i.imgur.com/1MhwqpV.jpg?1') black no-repeat center center scroll;
     }
     header video {
       display: none;
     }
-  }
-
-/* INSERT MEDIA ADJUST FOR MOBILE */
-/* ADJUST SOCIAL MEDIA LINKS SIZE FOR RESPONSIVENESS */
-/* ADJUST FONT SIZES */
+  } */
 
 
-/* nav .navbar-nav li a{color: aquamarine !important;} */
 #nav-img{width: 6%;}
 
 @media only screen and (max-width:600px) {

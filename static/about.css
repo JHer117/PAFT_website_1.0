@@ -12,9 +12,7 @@ body {
     backdrop-filter: blur(5px);
 }
 
-/* packages page */
-#construct{color: rgb(41, 190, 190);}
-/* packages page */
+
 
 /* SCROLLBAR */
 
@@ -39,20 +37,33 @@ body {
 #nav-img{width: 6%;}
 
 @media only screen and (max-width:600px) {
-    #nav-img{width: 8%;}
+    #nav-img{width: 15%;}
 }
 
 #instagram_link{width: 20%;}
-#location_link{width: 20%;}
-/*  */
+@media only screen and (max-width:600px) {
+  #instagram_link{width:10%;}
+}
 
+@media only screen and (max-width:600px) {
+  .jumbotron h1{font-size: 4rem;}
+}
 
 #img_logo{width: 10%; border-radius: 4px;}
+@media only screen and (max-width:600px) {
+  #img_logo{width: 25%;
+  margin-bottom: 10px;
+  }
+}
 
 .jumbotron{margin-bottom: 100px;}
 
 .display-1{color: rgb(248, 142, 55);}
 .display-2{color: rgb(248, 142, 55) !important;}
+
+@media only screen and (max-width:600px) {
+  #about_section h1 {font-size: 3rem;}
+}
 
 .lead{color:rgb(252, 134, 38);}
 
@@ -81,6 +92,13 @@ span{color: rgb(248, 142, 55);}
 }
 
 #about_section .motto{color:rgb(41, 190, 190);}
+@media only screen and (max-width:600px) {
+  #about_section .motto{
+    font-size: 18px;
+  }
+}
+
+hr{background-color: rgb(252, 134, 38);}
 #about_section h4{margin-top: 30px;}
 
 h6{margin-top: 50px;
@@ -88,3 +106,9 @@ h6{margin-top: 50px;
 }
 
 #about_section .verse{color: rgb(167, 201, 201);}
+@media only screen and (max-width:600px){
+  #about_section .verse{
+    font-size: 12px;
+  }
+}
+
