@@ -39,18 +39,18 @@
         <div class="collapse navbar-collapse" id="navbarText">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="C:\Users\white\Desktop\Paladin Arms-Firearms Training\Website\templates\index.html">Home</a>
+                    <a class="nav-link" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="C:\Users\white\Desktop\Paladin Arms-Firearms Training\Website\templates\packages.html">Packages</a>
+                    <a class="nav-link" href="/packages.html">Packages</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="C:\Users\white\Desktop\Paladin Arms-Firearms Training\Website\templates\index.html#contact">Contact</a>
+                    <a class="nav-link" href="{{ url_for('landing', _anchor='contact') }}">Contact</a>
                 </li>
             </ul>
             <div class="navbar-nav ml-auto">
                 <a class="nav-item nav-link" href="https://www.instagram.com/paladin_armsft/" target="_blank">
-                <img id="instagram_link" src="C:\Users\white\Desktop\Paladin Arms-Firearms Training\Website\static\images\insta_logo1.jpg" alt="insta_link">
+                <img id="instagram_link" src="https://i.imgur.com/SOJYCI4.jpg" alt="insta_link">
                 </a>
 
             </div> 
@@ -86,11 +86,11 @@
             </p>
             <hr>
             <h4 class="motto">
-                <a class="motto" href="C:\Users\white\Desktop\Paladin Arms-Firearms Training\Website\templates\index.html#contact" target="_blank" rel="noopener noreferrer">START YOUR TRAINING NOW!</a>
+                <a class="motto" href="{{ url_for('landing', _anchor='contact') }}" >START YOUR TRAINING NOW!</a>
             </h4>
             <hr>
             <h6 class="text-right">
-                <a class="verse" href="https://www.biblegateway.com/passage/?search=Matthew+5%3A+3-12&version=NASB" target="_blank" rel="noopener noreferrer">Matthew 5: 3-12</a>
+                <a class="verse" href="https://www.biblegateway.com/passage/?search=Matthew+5%3A+3-12&version=NASB" target="_blank" >Matthew 5: 3-12</a>
             </h6>
             
         </div>
